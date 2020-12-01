@@ -1,11 +1,9 @@
 .sidebar {
-  display: "flex";
+  display: flex;
   flex-direction: column;
   flex: 0.35;
 }
-.sidebar__input {
-  width: 30vw;
-}
+
 .sidebar__search {
   display: flex;
   align-items: center;
@@ -31,6 +29,7 @@
 .sidebar__searchContainer > input {
   border: none;
   margin-left: 10px;
+  width: 25vw;
 }
 
 .sidebar__header {
@@ -50,4 +49,10 @@
 .sidebar__headerRight > .MuiSvgIcon-root {
   margin-right: 2vw;
   font-size: 24px !important;
+}
+
+.sidebar__chats {
+  flex: 1;
+  background-color: white;
+  overflow: scroll;
 }
